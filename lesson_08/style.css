@@ -1,0 +1,104 @@
+/**
+ * Demo styles
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  background: #DBE5EA;
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font: 1.125em/1.5625 sans-serif;
+  justify-content: center;
+  margin: 0;
+  padding: 1em;
+  min-height: 100%;
+}
+
+/**
+ * Outer Button styles
+ */
+
+.button {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  display: inline-block;
+  font: inherit;
+  height: auto;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}
+
+/**
+ * Override default focus styles so we can apply our own.
+ * Never do this unless you will replace them!!
+ */
+
+.button:focus {
+  outline: none;
+}
+
+.button::-moz-focus-inner {
+  border: 0;
+}
+
+.button-inner {
+  align-items: center;
+  background: #456BD9;
+  border: 2px solid transparent;
+  border-radius: 99em;
+  color: #fff;
+  display: flex;
+  font-weight: 600;
+  height: 2.5em;
+  min-width: 2.5em;
+  padding: 0 1em;
+  position: relative;
+  transition: 0.2s ease;
+  width: 100%;
+}
+
+.button:focus .button-inner {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px #456BD9;
+}
+
+.button:hover .button-inner {
+  filter: brightness(1.1);
+}
+
+.button:active .button-inner {
+  filter: brightness(0.9);
+}
+
+.badge {
+  align-items: center;
+  background: #ce2c6c;
+  border: 2px solid #fff;
+  border-radius: 99em;
+  color: #fff;
+  display: flex;
+  font-size: 0.77em;
+  font-weight: 400;
+  height: 1.44em;
+  justify-content: center;
+  line-height: 1;
+  min-width: 1.44em;
+  position: absolute;
+  right: -2px;
+  top: -2px;
+}
