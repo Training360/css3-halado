@@ -1,0 +1,59 @@
+.icon-blue {
+  background-image: linear-gradient(45deg, #4481eb 0%, #04befe 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-green {
+  background-image: linear-gradient(315deg, #9be15d 0%, #00e3ae 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-orange {
+  background-image: linear-gradient(135deg, #FDD819 10%, #E80505 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-red {
+  background-image: linear-gradient(45deg, #FF512F 20%, #DD2476 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-brown {
+  background-image: linear-gradient(135deg, #FFAA85 10%, #B3315F 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-gray {
+  background-image: linear-gradient(135deg, #616161 0%, #9bc5c3 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-greenblue {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#209cff), to(#68e0cf));
+  background-image: linear-gradient(0deg, #209cff 0%, #68e0cf 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-beige {
+  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-purple {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#b224ef), to(#7579ff));
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+i {
+  margin-top: 50px;
+}
