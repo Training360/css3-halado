@@ -1,5 +1,5 @@
 .icon-blue {
-  background-image: linear-gradient(45deg, #4481eb 0%, #04befe 100%);
+  background-image: linear-gradient(45deg, #135fe4 0%, #69d3f7 100%);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -11,7 +11,7 @@
   background-clip: text;
 }
 .icon-orange {
-  background-image: linear-gradient(135deg, #FDD819 10%, #E80505 100%);
+  background-image: radial-gradient(red 10%, yellow 80%, white);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
