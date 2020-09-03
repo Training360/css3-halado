@@ -1,0 +1,24 @@
+.container {
+  width: 200px;
+  height: 90vh;
+  position: relative;
+  top: 5%;
+  float: left;
+  margin: 0 50px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #23324b;
+  position: absolute;
+  top: 50px;
+}
+
+.box.end {
+  transform: translate(0, 100px) rotate(180deg) scale(0.65, 0.65);
+}
+
+#smooth {
+  transition: all 1s ease-in-out;
+}
