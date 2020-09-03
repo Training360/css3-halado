@@ -1,45 +1,45 @@
-p.overflow1 {
-  white-space: nowrap; 
-  width: 200px; 
-  border: 1px solid #000000;
+.overflow1 {
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid black;
   overflow: hidden;
   text-overflow: clip;
 }
 
-p.overflow2 {
-  white-space: nowrap; 
-  width: 200px; 
-  border: 1px solid #000000;
+.overflow2 {
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid black;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 p.wrap {
-  width: 11em; 
-  border: 1px solid #000000;
-  word-wrap: break-word;
+  width: 11em;
+  border: 1px solid black;
+  word-break: keep-all;
 }
 
 p.word-break-1 {
-  width: 140px; 
-  border: 1px solid #000000;
+  width: 140px;
+  border: 1px solid black;
   word-break: keep-all;
 }
 
 p.word-break-2 {
-  width: 140px; 
-  border: 1px solid #000000;
+  width: 140px;
+  border: 1px solid black;
   word-break: break-all;
 }
 
 p.writing-mode-1 {
-  writing-mode: horizontal-tb; 
+  writing-mode: horizontal-tb;
 }
 
 span.writing-mode-2 {
-  writing-mode: vertical-rl; 
+  writing-mode: vertical-rl;
 }
 
 p.writing-mode-2 {
-  writing-mode: vertical-rl; 
+  writing-mode: vertical-lr;
 }

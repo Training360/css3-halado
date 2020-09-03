@@ -1,0 +1,31 @@
+div:not(.container) {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 1px solid black;
+  box-shadow: 0 0 3px;
+}
+
+.translate {
+  -ms-transform: translate(50px,10px); /* IE 9 */
+  transform: translate(50px,10px); /* Standard syntax */
+  margin-bottom: 30px;
+}
+
+.rotate {
+  margin: 50px 0;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg); /* Standard syntax */
+}
+
+.scale {
+  margin: 50px 0;
+  -ms-transform: scale(2, 1.5); /* IE 9 */
+  transform: scale(2, 1.5); /* Standard syntax */
+}
+
+.matrix {
+  margin-top: 40px;
+  -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+  transform: matrix(1, -0.3, 0, 1, 0, 0); /* Standard syntax */
+}
