@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Document</title>
+  <link
+    rel="stylesheet"
+    href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+  >
+  <link
+    rel="stylesheet"
+    href="../node_modules/font-awesome/css/font-awesome.min.css"
+  >
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+<body>
+  <div class="container">
+    <h1>The text-overflow Property</h1>
+    <p>The following two paragraphs contains a long text that will not fit in
+      the box.</p>
+    <h2>text-overflow: clip:</h2>
+    <p class="overflow1">This is some long text that will not fit in the box</p>
+    <h2>text-overflow: ellipsis:</h2>
+    <p class="overflow2">This is some long text that will not fit in the box</p>
+
+    <h1>The word-wrap Property</h1>
+    <p class="wrap"> This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
+  
+    <h1>The word-break Property</h1>
+    <p class="word-break-1">This paragraph contains some text. This line will-break-at-hyphens.</p>
+    <p class="word-break-2">This paragraph contains some text. The lines will break at any character.</p>
+    <p><b>Note:</b> The word-break property is not supported in Opera 12 and earlier versions.</p>
+  
+    <h1>The writing-mode Property</h1>
+    <p class="writing-mode-1">Some text with default writing-mode.</p>
+    <p>Some text with a span element with a <span class="writing-mode-2">vertical-rl</span> writing-mode.</p>
+    <p class="writing-mode-2">Some text with writing-mode: vertical-rl.</p>
+  </div>
+</body>
+
+</html>
