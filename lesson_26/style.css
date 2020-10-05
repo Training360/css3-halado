@@ -2,18 +2,24 @@
 @import 'normal.css' screen and (min-width: 769px);
 
 #div1 {
+  display: inline-block;
+  width: var(--item-width);
   background-color: var(--main-bg-color);
   color: var(--main-txt-color);
   padding: var(--main-padding);
 }
 
 #div2 {
+  display: inline-block;
+  width: var(--item-width);
   background-color: var(--main-bg-color);
   color: var(--main-txt-color);
   padding: var(--main-padding);
 }
 
 #div3 {
+  display: inline-block;
+  width: var(--item-width);
   background-color: var(--main-bg-color);
   color: var(--main-txt-color);
   padding: var(--main-padding);
