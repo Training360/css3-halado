@@ -1,0 +1,35 @@
+.container {
+  width: 200px;
+  height: 90vh;
+  position: relative;
+  top: 5%;
+  float: left;
+  margin: 0 50px;
+}
+
+#animated_div {
+  width: 70px;
+  height: 47px;
+  background: #92B901;
+  color: #ffffff;
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  animation: animated_div 5s infinite;
+  border-radius: 5px;
+}
+
+@keyframes animated_div {
+  0% {
+    left: 0px;
+  }
+
+  50% {
+    left: 500px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
