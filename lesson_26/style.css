@@ -1,8 +1,5 @@
-:root {
-  --main-bg-color: grey;
-  --main-txt-color: blue;
-  --main-padding: 15px;
-}
+@import 'mobile.css' screen and (max-width: 768px);
+@import 'normal.css' screen and (min-width: 769px);
 
 #div1 {
   background-color: var(--main-bg-color);
