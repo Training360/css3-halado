@@ -1,7 +1,7 @@
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  background-color: dodgerblue;
 }
 
 .flex-container > div {
