@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>CSS3 Grid</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Flexbox responsive grid</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <p>Responsive grid with Flexbox</p>
+            <h1>Basic Grid</h1>
+            <p></p>
+            <div class="Grid Grid--full u-textCenter">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of1"></div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--cols-2 u-textCenter">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of2"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of2"></div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--cols-3 u-textCenter">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of3"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of3"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of3"></div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--cols-4 u-textCenter">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of4"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of4"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of4"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of4"></div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--cols-6 u-textCenter">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of6"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of6"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of6"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of6"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of6"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of6"></div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--cols-12 u-textCenter">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo content-1of12"></div>
+                </div>
+            </div>
+            <hr />
+            <h1>Sidebar and main content</h1>
+            <div class="Grid Grid--gutters Grid--1of6">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of6"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">auto</div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--1of4">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of4"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">auto</div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--1of3">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of3"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">auto</div>
+                </div>
+            </div>
+            <hr />
+            <h1>Left / Center / Right content alignment</h1>
+            <div class="Grid Grid--gutters Grid--1of2">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of2"></div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--1of2 Grid--center">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of2"></div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--1of2 Grid--right">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of2"></div>
+                </div>
+            </div>
+            <hr />
+            <h1>Nesting</h1>
+            <div class="Grid Grid--gutters Grid--1of3 Grid--nested">
+                <div class="Grid-cell">
+                    <div class="Demo content-1of3"></div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">
+                        <div class="Grid Grid--gutters Grid--1of3 Grid--nested">
+                            <div class="Grid-cell">
+                                <div class="Demo content-1of3"></div>
+                            </div>
+                            <div class="Grid-cell">
+                                <div class="Demo">
+                                    <div
+                                        class="Grid Grid--gutters Grid--1of3 Grid--nested">
+                                        <div class="Grid-cell">
+                                            <div class="Demo content-1of3">
+                                            </div>
+                                        </div>
+                                        <div class="Grid-cell">
+                                            <div class="Demo">auto</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <h1>Vertical alignment</h1>
+            <div class="Grid Grid--gutters Grid--cols-3 Grid--top">
+                <div class="Grid-cell">
+                    <div class="Demo">This cell should be
+                        <strong>top-aligned</strong>.</div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">Vice keytar actually DIY Thundercats.
+                        Flannel heirloom lo-fi Blue Bottle Intelligentsia
+                        pour-over Etsy church-key banh mi Marfa lomo yr
+                        messenger bag.Artisan try-hard food truck +1 Cosby
+                        sweater.</div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">Letterpress YOLO Austin Pinterest
+                        Helvetica. Cliche pug literally, church-key 90's twee
+                        you probably haven't heard of them meh fixie cornhole
+                        banh mi pork belly mustache. Stumptown bespoke Vice,
+                        bitters sustainable hoodie Echo Park letterpress 8-bit
+                        pug. Quinoa meh flexitarian roof party, actually selvage
+                        Carles put a bird on it umami vegan ethical. </div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--cols-3 Grid--center">
+                <div class="Grid-cell">
+                    <div class="Demo">This cell should be
+                        <strong>center-aligned</strong>.</div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">Vice keytar actually DIY Thundercats.
+                        Flannel heirloom lo-fi Blue Bottle Intelligentsia
+                        pour-over Etsy church-key banh mi Marfa lomo yr
+                        messenger bag.Artisan try-hard food truck +1 Cosby
+                        sweater.</div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">Letterpress YOLO Austin Pinterest
+                        Helvetica. Cliche pug literally, church-key 90's twee
+                        you probably haven't heard of them meh fixie cornhole
+                        banh mi pork belly mustache. Stumptown bespoke Vice,
+                        bitters sustainable hoodie Echo Park letterpress 8-bit
+                        pug. Quinoa meh flexitarian roof party, actually selvage
+                        Carles put a bird on it umami vegan ethical. </div>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--cols-3 Grid--bottom">
+                <div class="Grid-cell">
+                    <div class="Demo">This cell should be
+                        <strong>bottom-aligned</strong>.</div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">Vice keytar actually DIY Thundercats.
+                        Flannel heirloom lo-fi Blue Bottle Intelligentsia
+                        pour-over Etsy church-key banh mi Marfa lomo yr
+                        messenger bag.Artisan try-hard food truck +1 Cosby
+                        sweater.</div>
+                </div>
+                <div class="Grid-cell">
+                    <div class="Demo">Letterpress YOLO Austin Pinterest
+                        Helvetica. Cliche pug literally, church-key 90's twee
+                        you probably haven't heard of them meh fixie cornhole
+                        banh mi pork belly mustache. Stumptown bespoke Vice,
+                        bitters sustainable hoodie Echo Park letterpress 8-bit
+                        pug. Quinoa meh flexitarian roof party, actually selvage
+                        Carles put a bird on it umami vegan ethical. </div>
+                </div>
+            </div>
+            <hr />
+            <h1>Holly Grail page layout</h1>
+            <p>Note: in responsive view Aside 1 and Aside 2 elements stack below
+                the Main content.</p>
+            <div class="Grid Grid--full Grid--nested header">
+                <div class="Grid-cell">
+                    <div class="Demo Holly">
+                        <img
+                            src="http://placehold.it/100x50/CC99CC/ffffff&text=Logo"
+                            style="vertical-align: middle;"
+                        ><strong> Header / Logo</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="Grid Grid--full">
+                <div class="Grid-cell">
+                    <ul class="navigation">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Grid Grid--gutters Grid--holly-grail">
+                <div class="Grid-cell main">
+                    <div class="Demo Holly">
+                        <strong>Main</strong>
+                        <p>Salvia Helvetica ethical lo-fi, artisan messenger bag
+                            put a bird on it. Photo booth taxidermy kale chips,
+                            Carles Thundercats retro blog paleo. 8-bit four loko
+                            jean shorts, church-key tattooed bespoke normcore
+                            art party salvia organic vinyl letterpress
+                            distillery. You probably haven't heard of them tofu
+                            food truck, Echo Park salvia Schlitz heirloom
+                            scenester ennui biodiesel Intelligentsia +1
+                            church-key. Bitters meh actually quinoa, YOLO pug
+                            authentic. Kitsch health goth paleo, pop-up tofu
+                            authentic gluten-free whatever yr Brooklyn irony.
+                            Banjo Tumblr you probably haven't heard of them
+                            literally aesthetic, wolf put a bird on it
+                            Kickstarter yr.</p>
+                    </div>
+                </div>
+                <div class="Grid-cell aside aside-1">
+                    <div class="Demo Holly"><strong>Aside 1</strong><br />
+                        <div class="img-placeholder"></div> Chocolate cake
+                        fruitcake icing muffin applicake chocolate.
+                    </div>
+                </div>
+                <div class="Grid-cell aside aside-2">
+                    <div class="Demo Holly">
+                        <strong>Aside 2</strong>
+                        <p>Hashtag deep v PBR, chillwave banjo mlkshk readymade
+                            fixie crucifix. Tattooed Tumblr direct trade trust
+                            fund swag gluten-free.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Grid Grid--full">
+                <div class="Grid-cell">
+                    <div class="Demo Holly"><strong>Footer</strong><br />
+                        Copyright &copy; Jelly-o apple pie pie chocolatebar.com
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <p>Some ideas are borrowed from Phillip Walton's Solved by Flexbox
+                project. </p>
+            <br />
+        </div>
+    </body>
+
+    </html>
+</body>
+
+</html>
